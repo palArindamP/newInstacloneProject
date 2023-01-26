@@ -1,0 +1,93 @@
+body {
+    
+    background-attachment: fixed;
+    background-color: #f8f8f8;
+  }
+
+#main_v {
+    margin-top: 100px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-left: 30%;
+    padding: 10px;
+    height: 460px;
+    width: 500px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    background-color: #fff;
+    
+}
+
+
+#header {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+#name_v {
+    margin: 0px;
+}
+
+/* adress section */
+#location_v {
+    margin: 0px;
+}
+
+/* image section */
+#img_v {
+    height: 300px;
+    width: 500 px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+#img_v img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+  }
+/* like share section */
+#likeAndShare {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+}
+
+#likes {
+    height: 30px;
+    margin-top: 15px;
+}
+
+#share {
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#date {
+    margin-left: 60%;
+}
+
+#count {
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: red;
+}
+
+#description_v {
+    padding: 0px;
+    margin-top: 8px;
+}
